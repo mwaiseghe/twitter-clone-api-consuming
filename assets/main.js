@@ -32,6 +32,7 @@ class UserProfile {
         profileName.innerHTML = profile.name;
         username.innerHTML = profile.username;
         userWeb.innerHTML = profile.website;
+        userWeb.href = "https://"+profile.website;
         userBio.innerHTML = profile.company.catchPhrase;
         userLocation.innerHTML = profile.address.city;
         return profile;
